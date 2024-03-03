@@ -6,12 +6,7 @@ function Address() {
       {/* icon   first address*/}
       <div className="flex space-x-2   border-b pb-2 border-slate-300 pt-2">
         <div className="rounded-lg ml-2 bg-white dark:bg-slate-600 shadow-lg w-10 h-10 p-2 my-auto">
-          <svg
-            className=" text-2xl fill-red-500 mx-auto"
-            xmlns="http://www.w3.org/2000/svg"
-            height="1em"
-            viewBox="0 0 384 512"
-          >
+          <svg className=" text-2xl fill-red-500 mx-auto" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" >
             <path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64H80V384H304V64z" />
           </svg>
         </div>
@@ -27,20 +22,15 @@ function Address() {
       {/* icon  second address*/}
       <div className="flex space-x-2    border-b pb-2 border-slate-300">
         <div className="rounded-lg ml-2 bg-white dark:bg-slate-600 shadow-lg w-10 h-10 p-2 my-auto">
-          <svg
-            className="text-2xl mx-auto fill-green-400"
-            xmlns="http://www.w3.org/2000/svg"
-            height="1em"
-            viewBox="0 0 512 512"
-          >
+          <svg className="text-2xl mx-auto fill-green-400" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"    >
             <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
           </svg>
         </div>
         {/* for text  */}
         <div className="text-start">
           <span className="text-sm text-slate-500">Email</span>
-          <a href="#">
-            <p>abdoulkarimsoumana62@gmail.com</p>
+          <a href="mailto:abdoulkarimsoumana62@gmail.com">
+            <p>abdoulkarimsoumana62@<br/>gmail.com</p>
           </a>
         </div>
       </div>

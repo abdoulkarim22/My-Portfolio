@@ -69,12 +69,12 @@ function AboutDetailCard() {
               </div>
             </div>
 
-            <div className="bg-gray-50 dark:bg-slate-900 rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
-              {/* for icon  */}
+            {/* <div className="bg-gray-50 dark:bg-slate-900 rounded-lg mr-4 my-4 p-3 sm:flex sm:space-x-2 space-y-2 sm:space-y-0 ">
+            
               <div className="text-lime-600">
               <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.5 21H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m2 8l2-2l-2-2m-3 0l-2 2l2 2M11 4h2m-1 13v.01"/></svg>
               </div>
-              {/* for text  */}
+         
               <div className="space-y-2">
                 <h1 className="text-lg  font-semibold">
                 Mobile Apps
@@ -85,7 +85,7 @@ function AboutDetailCard() {
                 je suis prêt à relever de nouveaux défis pour perfectionner mes compétences en développement backend.
                 </p>
               </div>
-            </div>
+            </div> */}
 
            
            
