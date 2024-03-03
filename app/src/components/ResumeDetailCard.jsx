@@ -19,15 +19,8 @@ function ResumeDetailCard() {
           {/* description education  */}
           <div className=" py-5 space-y-2">
             <div className="flex space-x-3">
-              <span className="">
-                <svg
-                  className="h-8 fill-red-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1em"
-                  viewBox="0 0 640 512"
-                >
-                  <path d="M337.8 5.4C327-1.8 313-1.8 302.2 5.4L166.3 96H48C21.5 96 0 117.5 0 144V464c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V144c0-26.5-21.5-48-48-48H473.7L337.8 5.4zM256 416c0-35.3 28.7-64 64-64s64 28.7 64 64v96H256V416zM96 192h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V208zM96 320h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V336c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H512c-8.8 0-16-7.2-16-16V336zM232 176a88 88 0 1 1 176 0 88 88 0 1 1 -176 0zm88-48c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H336V144c0-8.8-7.2-16-16-16z" />
-                </svg>
+              <span className="text-lime-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="2.6em" height="2.6em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .807L23.835 8.5L22 9.693V16h-2v-5.007l-1 .65V17.5c0 1.47-1.014 2.615-2.253 3.339c-1.265.737-2.945 1.16-4.747 1.16s-3.483-.423-4.747-1.16C6.013 20.115 5 18.969 5 17.499v-5.856L.165 8.5zM7 12.943V17.5c0 .463.33 1.067 1.261 1.61c.908.53 2.227.89 3.739.89s2.831-.36 3.739-.89c.932-.543 1.26-1.147 1.26-1.61v-4.557l-5 3.25zM20.165 8.5L12 3.193L3.835 8.5L12 13.807z"/></svg>
               </span>
               <span className="text-2xl font-semibold text-black dark:text-white">
                 Education
@@ -38,37 +31,81 @@ function ResumeDetailCard() {
               <div className="bg-pink-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1">
                 <p className="mb-2">2020-2024</p>
                 <p className="text-black dark:text-white text-lg font-normal">
-                  B-Tech in Computer Science
+                 
                 </p>
                 <p>CGPA : 8.36/10</p>
                 <p className="text-black dark:text-white text-base">
-                  Darbhanga College Of Engineering Darbhanga (Bihar)
+                 
                 </p>
-                <p>Bihar Engineering University Patna</p>
+                <p></p>
               </div>
 
               {/* second education  */}
               <div className="bg-purple-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3 space-y-1 ">
                 <p className="mb-2">2018-2020</p>
                 <p className="text-black dark:text-white text-lg font-normal">
-                  Intermediate In Science
+                
                 </p>
                 <p>Percentage : 84%</p>
                 <p className="text-gray-900 dark:text-white text-base">
-                  Sachidananda Sinha College Aurangabad(Bihar)
+                
                 </p>
-                <p>Bihar School Examination Board</p>
+                <p></p>
               </div>
 
               {/* third education  */}
               <div className="bg-yellow-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3 space-y-1 ">
                 <p className="mb-2">2017-2018</p>
-                <p className="text-black dark:text-white text-lg font-normal">Matriculation </p>
-                <p>Percentage : 84%</p>
+                <p className="text-black dark:text-white text-lg font-normal"> </p>
+                <p></p>
                 <p className="text-gray-700 dark:text-white text-base">
-                  Ashoka Inter School Daudnagar (Bihar)
+                 
                 </p>
-                <p>Bihar School Examination Board</p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          {/* Experiences */}
+
+          <div className=" py-5 space-y-2">
+            <div className="flex space-x-3">
+              <span className="text-lime-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" viewBox="0 0 512 512"><rect width="448" height="320" x="32" y="128" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" rx="48" ry="48"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M144 128V96a32 32 0 0 1 32-32h160a32 32 0 0 1 32 32v32m112 112H32m288 0v24a8 8 0 0 1-8 8H200a8 8 0 0 1-8-8v-24"/></svg>
+              </span>
+              <span className="text-2xl font-semibold text-black dark:text-white">
+               Experiences
+              </span>
+            </div>
+            <div className="dark:text-gray-400 grid grid-cols-1 md:grid-cols-2 text-gray-500 text-sm ">
+              {/* first education  */}
+              <div className="bg-pink-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1">
+                <p className="mb-2">2023 - Now</p>
+                <p className="text-black dark:text-white text-lg font-normal">
+                Full-Stack Developer (Codeloccol)
+                </p>
+                <p>Avec mon parcours de développeur  depuis 2023, j'ai appris beaucoup de choses. J'ai réalisé 
+                   des projets, exploré les arcanes du code et résolu des problèmes. Chaque expérience a enrichi 
+                   ma compréhension du développement . Je me suis également familiarisé avec de nouvelles 
+                   technologies, perfectionnant ainsi mes compétences et élargissant mes horizons professionnels.</p>
+              </div>
+
+              {/* second education  */}
+              <div className="bg-purple-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3 space-y-1 ">
+                <p className="mb-2">2018-2020</p>
+                <p className="text-black dark:text-white text-lg font-normal">
+                  Coursera(cours en ligne)
+                </p>
+                <p>Introduction to Front-End Development 
+                un cours en ligne sans crédit, autorisé par Meta et proposé par l'intermédiaire de cousera</p>
+              </div>
+
+              {/* third education  */}
+              <div className="bg-yellow-100 dark:bg-slate-800 rounded-lg mr-4 my-4 p-3 space-y-1 ">
+                <p className="mb-2">2017-2018</p>
+                <p className="text-black dark:text-white text-lg font-normal">Simplilearn (cours en ligne)</p>
+                <p>JavaScript for Beginners </p>
+                <p>Getting Started with ReactJS Components </p>
               </div>
             </div>
           </div>
@@ -92,33 +129,20 @@ function ResumeDetailCard() {
               {/* first education  */}
               <div className="bg-red-100 dark:text-[white] dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
-                  Development
+                Front-End
                 </p>
                 <div className="flex flex-wrap dark:text-[#a6a6a6]">
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    React.js
+                    HTML
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Express.js
+                   CSS
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    MongoDB
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Node.js
+                    React js 
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                     JavaScript
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Tailwind Css
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">Git</span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Github
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Firebase
                   </span>
                 </div>
               </div>
@@ -126,13 +150,17 @@ function ResumeDetailCard() {
               {/* second skill  */}
               <div className="bg-orange-100 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
-                  Programming
+                Back-End
                 </p>
                 <div className="flex flex-wrap dark:text-[#a6a6a6]">
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">C</span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">C++</span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Data Structure & Algorithm using C++
+                     MongoDB
+                  </span>
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
+                    Express.js
+                  </span>
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
+                    Node.js
                   </span>
                 </div>
               </div>
@@ -140,29 +168,17 @@ function ResumeDetailCard() {
               {/* third skill  */}
               <div className="bg-cyan-100 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
-                  CourseWork
+                  Frameworks I use
                 </p>
                 <div className="flex flex-wrap dark:text-[#a6a6a6]">
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Software Engineering
+                   Bootstrap
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Database Management System
+                   tailwind css
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Operating System
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Theory Of Computation
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Compiler Design
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Machine Learning
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Computer Network
+                    Next js
                   </span>
                 </div>
               </div>
@@ -170,11 +186,11 @@ function ResumeDetailCard() {
               {/* forth skill  */}
               <div className="bg-gray-200 dark:text-white dark:bg-slate-800 rounded-lg mr-4 my-4 p-3  space-y-1 ">
                 <p className="text-black dark:text-white text-lg font-semibold border-b-2 border-blue-400 mb-5">
-                  Others
+                  Tools
                 </p>
                 <div className="flex flex-wrap dark:text-[#a6a6a6]">
                   <span className="bg-white dark:bg-black  p-2 rounded-md mr-2 mb-2">
-                    Figma
+                  Git
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
                    Canva
@@ -183,19 +199,10 @@ function ResumeDetailCard() {
                     VS Code
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Postman
+                    Render
                   </span>
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    MongoDB Atlas
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    SQL 
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Cisco Packet Tracer
-                  </span>
-                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2">
-                    Web Design 
+                    GitHub
                   </span>
                 </div>
               </div>
