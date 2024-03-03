@@ -12,14 +12,11 @@ import ResumeDetailCard from "./components/ResumeDetailCard";
 
 function App() {
   return (
-    <div className="bg-light dark:bg-dark bg-cover  ">
+    <div className="bg-light  bg-cover  ">
       <div className="mx-auto  max-w-7xl pt-12 xl:pt-20 pb-10">
         <BrowserRouter>
           <Routes>
-            <Route
-              path="/"
-              exact
-              element={
+            <Route path="/" exact element={
                 <section id="about">
                   <Header />
                   <div className="mx-3 md:mx-6   xl:mt-52 xl:flex space-y-8 xl:space-x-8 xl:space-y-0">
@@ -27,10 +24,7 @@ function App() {
                     <Info />
 
                     <div className="xl:w-8/12    space-y-2">
-                      <section
-                        id="about-detail-card "
-                        className="text-[#a6a6a6]"
-                      >
+                      <section  id="about-detail-card "  className="text-[#a6a6a6]" >
                         <Navigation />
                         <AboutDetailCard />
                       </section>
@@ -49,10 +43,7 @@ function App() {
                     <Info />
 
                     <div className="xl:w-8/12   space-y-2">
-                      <section
-                        id="about-detail-card "
-                        className="text-slate-600"
-                      >
+                      <section id="about-detail-card " className="text-slate-600" >
                         <Navigation />
                         <AboutDetailCard />
                       </section>

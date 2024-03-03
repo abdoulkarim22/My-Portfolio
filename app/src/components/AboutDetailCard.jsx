@@ -14,17 +14,16 @@ function AboutDetailCard() {
             </div>
           </div>
           <p className="my-5 ">
-            Hi, I'm Atul Kumar, a 3rd year B-Tech student who's passionate about
-            becoming a great software developer. My primary interests lie in
-            competitive programming and development, and I've honed my skills in
-            C++ through solving DSA and logic-based problems.
+          Je suis un développeur passionné par la création d'applications web et mobiles innovantes.
+          J'ai une solide expérience dans le développement front-end et back-end, ainsi que dans la conception
+          et la gestion de bases de données. Je suis constamment à la recherche de nouveaux défis et de
+          nouvelles technologies à explorer.
           </p>
           <p>
-            Currently, I'm exploring full stack web development using HTML, CSS,
-            and JavaScript, along with other frameworks. I've completed several
-            projects in web development, and I'm always looking for
-            opportunities to gain more experience and work on real-world
-            projects.
+          {/* Actuellement, je suis plongé dans le développement mobile, explorant les subtilités de la création d'applications pour iOS et Android 
+          en utilisant des technologies React Native et Flutter. J'ai déjà réalisé plusieurs projets dans le
+           domaine du développement mobile et je suis constamment à la recherche de nouvelles opportunités pour acquérir plus d'expérience 
+           et pour contribuer à des projets concrets dans le monde de l'application mobile. */}
           </p>
         </div>
         {/* for what i do section  */}

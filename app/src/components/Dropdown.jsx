@@ -123,14 +123,7 @@ function Dropdown() {
         >
           <ul className="text-gray-400 space-y-2 my-2">
             {infos.map((info, index) => (
-              <DropdownButton
-                key={index}
-                route={info.route}
-                name={info.name}
-                svgfile={info.svgfile}
-                onclick={() => setActiveButton(index)}
-                isClicked={index === activeButton}
-              />
+              <DropdownButton key={index} route={info.route} name={info.name} svgfile={info.svgfile} onclick={() => setActiveButton(index)} isClicked={index === activeButton}/>
             ))}
           </ul>
         </div>
