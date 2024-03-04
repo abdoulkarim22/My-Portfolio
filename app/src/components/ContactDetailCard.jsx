@@ -59,14 +59,14 @@ function ContactDetailCard() {
           <div className="my-5 bg-gray-100 dark:bg-slate-900 rounded-lg p-5 md:px-10  ">
 
             {/* contact message  */}
-            <div className="my-5">
+            {/* <div className="my-5">
               <p className="text-xl">
-                I am eager to know  your{" "}
+              J'ai hâte de connaître vos pensées {" "}
                 <span className="text-xl text-red-500 font-semibold">
-                  Thoughts and Ideas !
+                et vos idées !
                 </span>
               </p>
-            </div>
+            </div> */}
 
             {/* contact form  */}
             <form onSubmit={handleSubmit} className="space-y-10">
