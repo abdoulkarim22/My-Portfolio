@@ -18,7 +18,7 @@ function Info() {
           <h1 className="box-border  text-2xl font-semibold">Abdoul karim Soumana</h1>
           {/* profession name  */}
           <span className="text-sm mt-3 mb-2 inline-block  py-1 px-5 bg-gray-100 dark:bg-slate-800 text-[#a6a6a6]  rounded-md  ">
-            Full-Stack Web Developper || Developper Mobile
+            Full-Stack Developper
           </span>
           {/* space for Socialicon  */}
           <Socialicon />
